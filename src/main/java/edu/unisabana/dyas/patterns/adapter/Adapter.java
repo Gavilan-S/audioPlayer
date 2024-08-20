@@ -16,15 +16,14 @@ public class Adapter implements AudioPlayer{
     System.out.println("desde el adaptador 'play' al archivo: " + audioType);
       advancedAudioPlayer.playVlc(fileName);
     }else {
-      System.out.println("su archivo no ha sido implementado en el adaptador.");
+      throw new UnsupportedOperationException("error al intentar 'play' en el adaptador.");
     }
-    throw new UnsupportedOperationException("error al intertar 'play' en el adaptador.");
   }
 
   @Override
   public void stop() {
-    System.out.println("desde el adaptador:");
-    throw new UnsupportedOperationException("error al intertar 'stop' en el adaptador.");
+    System.out.println("desde el adaptador: deteniendo reproducción");
+
   }
 
 }

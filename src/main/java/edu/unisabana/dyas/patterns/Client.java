@@ -11,6 +11,8 @@ public class Client {
     advancedPlayer.playMp4("video.mp4");
     advancedPlayer.stop();
 
+    System.out.println("");
+
     Adapter adapter = new Adapter();
     adapter.play(typeOfAudio.mp4, "video.mp4");
     adapter.stop();
