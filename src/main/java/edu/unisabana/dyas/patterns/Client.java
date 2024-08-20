@@ -1,6 +1,6 @@
-package main.java.edu.unisabana.dyas.patterns;
+package edu.unisabana.dyas.patterns;
 
-import main.java.edu.unisabana.dyas.patterns.utils.AdvancedAudioPlayer;
+import edu.unisabana.dyas.patterns.utils.AdvancedAudioPlayer;
 
 // Cliente que utiliza directamente AdvancedAudioPlayer sin conocer la interfaz AudioPlayer
 public class Client {
