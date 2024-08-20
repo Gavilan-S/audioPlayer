@@ -21,7 +21,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>main.java.edu.unisabana.dyas.patterns.Client</mainClass> <!-- Especifica tu clase principal aquí -->
+          <mainClass>edu.unisabana.dyas.patterns.Client</mainClass>
         </configuration>
       </plugin>
     </plugins>
@@ -29,8 +29,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.release>8</maven.compiler.release>
   </properties>
 </project>
 
